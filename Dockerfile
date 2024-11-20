@@ -27,3 +27,4 @@ ENV DB_DUMP_POST_RESTORE_SCRIPTS="/scripts.d/post-restore/"
 
 # start
 ENTRYPOINT ["/entrypoint"]
+CMD ["backup"]
